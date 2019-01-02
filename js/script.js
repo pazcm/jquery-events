@@ -97,12 +97,12 @@ $(document).ready(function() {
 		$("body").css("background-color", "#ccc");
 	});
 	
-	// first buttom hide when clicked
+	// first buttom slow, medium, fast
 	$("#button1").on("click", function(){
-		$("#button1").hide();
+		$('#button1').fadeOut('slow');
 	});
 	
-	
+
 	
 	
 	

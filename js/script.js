@@ -97,16 +97,12 @@ $(document).ready(function() {
 		$("body").css("background-color", "#ccc");
 	});
 	
-	// first buttom slow, medium, fast
-	$("#button1").on("click", function(){
-		$('#button1').fadeOut('slow');
+	
+	$("#button1" ).click(function() {
+	$( "#p_html" ).toggle( "blind" );
 	});
 	
 
-	
-	
-	
-	
 	
 	
 }); 

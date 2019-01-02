@@ -87,7 +87,15 @@ $(document).ready(function() {
         $("#hr_django").removeClass("h2_font_size");
         $("#hr_html").removeClass("h2_font_size");
         $("#hr_css").addClass("h2_font_size");
-});
+	});
+	
+	// buttom test
+	$(".bottom_button").mouseenter(function(){
+		$("body").css("background-color", "black");
+	});
+	$(".bottom_button").mouseleave(function(){
+		$("body").css("background-color", "#ccc");
+	});
 	
 	
 	

@@ -97,6 +97,11 @@ $(document).ready(function() {
 		$("body").css("background-color", "#ccc");
 	});
 	
+	// first buttom hide when clicked
+	$("#button1").on("click", function(){
+		$("#button1").hide();
+	});
+	
 	
 	
 	

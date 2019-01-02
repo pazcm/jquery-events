@@ -102,7 +102,22 @@ $(document).ready(function() {
 	$( "#p_html" ).toggle( "blind" );
 	});
 	
+	$( "#button2" ).click(function() {
+	$( "#p_html2" ).slideToggle( "blind" );
+	});
+	
+	$( "#button3" ).click(function() {
+	$( "#p_html3" ).slideToggle( 1000 );
+	});
+	
+	$( "#button2" ).mouseenter(function() {
+	$( this ).fadeTo( "slow", 0.5 );
+	});
+	
+	$( "#button2" ).mouseleave(function() {
+	$( this ).fadeTo( "slow", 1 );
+	});
 
-	
-	
+
+
 }); 
